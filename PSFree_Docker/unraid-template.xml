@@ -26,7 +26,7 @@ This allows a simple redirect without a reverse proxy
 &#xA0;&#xA0;Go to Settings &#x2192; User Guide and the exploit should load automatically &#x2192; Enjoy!
   </Overview>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/HVR88/PSFree_Docker/main/extras/icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/HVR88/PSFree_DEV/main/extras/icon.png</Icon>
   <Config Name="Internal HTTP Port" Target="PORT" Default="80" Mode="{3}" Type="Variable" Display="advanced" Required="true" Mask="false" Description="Container's internal port - 80 for br0 (macvlan/ipvlan)" />
   <Config Name="WebUI Port (Bridge)" Target="80" Default="52721" Mode="tcp" Type="Port" Display="always" Required="false" Mask="false" Description="Port used by Bridge type networks (ignore for br0)" />
 </Container>
